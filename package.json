@@ -1,0 +1,49 @@
+{
+  "name": "webpack-project-template",
+  "version": "1.0.0",
+  "description": "Project template",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Evgeniy Kozyurman",
+  "browserslist": [
+    "> 1%",
+    "last 3 version"
+  ],
+  "scripts": {
+    "dist": "webpack --config webpack.dist.config.js",
+    "build": "webpack --config webpack.build.config.js",
+    "watch": "webpack --watch --config webpack.build.config.js",
+    "start": "webpack-dev-server --open --config webpack.build.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "autoprefixer": "^9.6.1",
+    "babel-jest": "^25.5.1",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "duplicate-package-checker-webpack-plugin": "^3.0.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^25.5.4",
+    "json-loader": "^0.5.7",
+    "lodash-webpack-plugin": "^0.11.5",
+    "mini-css-extract-plugin": "^0.8.0",
+    "postcss": "^7.0.17",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.6.2",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {}
+}
