@@ -26,6 +26,6 @@ module.exports = merge(common, {
     ],
     output: {
         path: path.resolve(__dirname, 'build'),
-        publicPath: "/build"
+        publicPath: "/build/"
     }
 });

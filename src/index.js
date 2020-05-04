@@ -1,3 +1,3 @@
 'use strict';
 
-import './css/index.css';
+import './assets/css/index.css';

@@ -76,7 +76,7 @@ module.exports = {
     },
     plugins: [
         new CleanWebpackPlugin(),
-        new new DuplicatePackageCheckerPlugin(),
+        new DuplicatePackageCheckerPlugin(),
         new MiniCssExtractPlugin({
             filename: "[name].bundle.css"
         }),
