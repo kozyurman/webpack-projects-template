@@ -18,14 +18,14 @@ module.exports = merge(common, {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            inject: false,
             hash: true,
             template: './html/index.html',
-            filename: 'index.html'
+            filename: 'index.html',
+            chunks: ['vendor', 'common', 'index']
         })
     ],
     output: {
         path: path.resolve(__dirname, 'build'),
-        publicPath: "/build/"
+        publicPath: "/"
     }
 });
